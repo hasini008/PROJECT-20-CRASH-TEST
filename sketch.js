@@ -3,7 +3,7 @@ var speed , weight;
 
 function setup() {
   createCanvas(800,400);
-  car = createSprite(50 , 200 , 70 , 50);
+  car = createSprite(80 , 200 , 70 , 50);
   car.velocityX = speed;
 
   wall = createSprite( 600 , 200 , 60 , height/2);
